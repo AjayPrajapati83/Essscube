@@ -1,0 +1,24 @@
+LOGO PLACEMENT INSTRUCTIONS
+===========================
+
+1. Save your ESSSqube Events logo as: public/logo.png
+   - Recommended size: 200x200px
+   - Format: PNG with transparent background
+   - High resolution for retina displays
+
+2. Update these files to use the actual logo:
+   - components/layout/Header.tsx (line ~15)
+   - components/home/HeroSection.tsx (line ~40)
+
+3. Replace the placeholder div with:
+   <Image src="/logo.png" alt="ESSSqube Events" width={48} height={48} />
+
+FAVICON INSTRUCTIONS
+====================
+
+1. Replace app/favicon.ico with your actual favicon
+   - Size: 32x32px or 64x64px
+   - Format: .ico (preferred) or .png
+
+2. Optional: Add apple-touch-icon.png (180x180px) to public/ folder
+   for better iOS support
