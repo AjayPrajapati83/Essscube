@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { PartyPopper, Briefcase, Rocket, Calendar } from "lucide-react";
+import { PartyPopper, Briefcase, Rocket, Calendar, Megaphone, Code } from "lucide-react";
 import Link from "next/link";
 
 const ServicesPreview = () => {
@@ -30,6 +30,18 @@ const ServicesPreview = () => {
       description: "Complete event production from concept to execution",
       color: "bg-teal-100",
     },
+    {
+      icon: Megaphone,
+      title: "Digital Marketing",
+      description: "Social media marketing and brand promotion strategies",
+      color: "bg-pink-100",
+    },
+    {
+      icon: Code,
+      title: "Technical Solutions",
+      description: "Website and app development for your business needs",
+      color: "bg-green-100",
+    },
   ];
 
   return (
@@ -45,11 +57,11 @@ const ServicesPreview = () => {
             Our Services
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            From intimate gatherings to grand celebrations, we handle it all
+            From intimate gatherings to grand celebrations, plus digital solutions
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}

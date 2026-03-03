@@ -1,7 +1,9 @@
 import HeroSection from "@/components/home/HeroSection";
+import StatsCounter from "@/components/home/StatsCounter";
 import ServicesPreview from "@/components/home/ServicesPreview";
+import FoundersSection from "@/components/about/FoundersSection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
-import FeaturedEvents from "@/components/home/FeaturedEvents";
+import InfiniteGallery from "@/components/home/InfiniteGallery";
 import ReviewsCarousel from "@/components/home/ReviewsCarousel";
 import CTASection from "@/components/home/CTASection";
 
@@ -9,9 +11,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <StatsCounter />
       <ServicesPreview />
+      <FoundersSection />
       <WhyChooseUs />
-      <FeaturedEvents />
+      <InfiniteGallery />
       <ReviewsCarousel />
       <CTASection />
     </>

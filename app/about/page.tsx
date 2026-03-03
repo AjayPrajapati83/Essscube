@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import FoundersSection from "@/components/about/FoundersSection";
 import CompanyStory from "@/components/about/CompanyStory";
 import MissionVision from "@/components/about/MissionVision";
 
@@ -46,7 +45,6 @@ export default function AboutPage() {
       </section>
       
       <CompanyStory />
-      <FoundersSection />
       <MissionVision />
     </div>
   );
