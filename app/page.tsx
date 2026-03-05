@@ -1,5 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import StatsCounter from "@/components/home/StatsCounter";
+import UpcomingEvents from "@/components/home/UpcomingEvents";
 import ServicesPreview from "@/components/home/ServicesPreview";
 import FoundersSection from "@/components/about/FoundersSection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <HeroSection />
       <StatsCounter />
+      <UpcomingEvents />
       <ServicesPreview />
       <FoundersSection />
       <WhyChooseUs />
